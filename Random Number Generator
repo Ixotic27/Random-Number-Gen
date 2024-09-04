@@ -41,6 +41,7 @@ int main() {
                 // The guess is correct
                 else {
                     printf("Congrats! \n");
+                    printf("You guessed the number in %d guesses", co);
                 }
                 co++;  // Increment the attempt counter
 
